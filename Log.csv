@@ -1,0 +1,7 @@
+Successful or Unsuccessful, Server Status Code, Requested URL, hostname, source IP, destination IP, source port, destination port, Server Response line (including code and phrase)
+Success, 200, http://www.example.com, www.example.com, 10.0.2.15, 93.184.216.34, 39671, 80, HTTP/1.1 200 OK
+Success, 200, http://pudim.com.br/, pudim.com.br, 10.0.2.15, 54.207.20.104, 46659, 80, HTTP/1.1 200 OK
+Unsuccessful, 403, http://wwwexample.com, wwwexample.com, 10.0.2.15, 104.247.82.13, 54470, 80, HTTP/1.1 403 Forbidden
+Unsuccessful, 404, http://93.184.216.34/foo.html, www.example.com, 10.0.2.15, 93.184.216.34, 39678, 80, HTTP/1.1 404 Not Found
+Unsuccessful, 301, http://www.yahoo.com, www.yahoo.com, 10.0.2.15, 98.137.11.163, 43139, 80, HTTP/1.1 301 Moved Permanently
+Unsuccessful, N/A, http://www.example.com:443, www.example.com, 10.0.2.15, 93.184.216.34, 36265, 443, Recv failure: Connection reset by peer
